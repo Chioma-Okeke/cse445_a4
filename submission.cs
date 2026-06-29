@@ -4,11 +4,16 @@ using System.Xml;
 using Newtonsoft.Json;
 using System.Text;
 
+/**
+ * This template file is created for ASU CSE445 Distributed SW Dev Assignment 4.
+ * Please do not modify or delete any existing class/variable/method names. However, you can add more variables and functions.
+ * Uploading this file directly will not pass the autograder's compilation check, resulting in a grade of 0.
+ * **/
+
 namespace ConsoleApp1
 {
     public class Submission
     {
-        // Replace these three URLs after you upload the XML/XSD files to GitHub Pages.
         public static string xmlURL = "https://chioma-okeke.github.io/cse445_a4/NationalParks.xml";
         public static string xmlErrorURL = "https://chioma-okeke.github.io/cse445_a4/NationalParksErrors.xml";
         public static string xsdURL = "https://chioma-okeke.github.io/cse445_a4/NationalParks.xsd";
@@ -49,7 +54,8 @@ namespace ConsoleApp1
                 {
                     while (reader.Read())
                     {
-                        // Reading the document triggers validation.
+                        // No manual code is needed here.
+                        // The XmlReader validates each XML node automatically as it is read.
                     }
                 }
 
