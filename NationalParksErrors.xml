@@ -101,7 +101,7 @@
       <City>West Glacier</City>
       <State>MT</State>
       <Zip>59936</Zip>
-    <!-- Missing closing Address tag injected here -->
+    </Address>
   </NationalPark>
   <NationalPark>
     <Name>Arches</Name>
@@ -123,6 +123,6 @@
       <City>Bryce Canyon</City>
       <State>UT</State>
       <Zip>84764</Zip>
-    </Address>
+    <!-- Missing closing Address tag injected here -->
   </NationalPark>
 </NationalPark>
